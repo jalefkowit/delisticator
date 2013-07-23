@@ -1,0 +1,47 @@
+.bullshit-listicle {
+    
+    opacity: 0.2;
+    
+}
+
+.bullshit-listicle:hover {
+    
+    opacity: 1;
+    
+}
+
+.std-posts .bullshit-listicle h2 {
+    
+    margin-bottom: 0;
+    
+}
+
+.bullshit-listicle-clear {
+    
+    display: block;
+    clear: both;
+    height: 0;
+    width: 100%;
+    
+}
+
+p.bullshit-listicle-original-headline {
+ 
+    margin: 0 5px 5px 0;
+    font-size: 80%;
+    
+}
+
+.ThreeColumns .Column2 li.bullshit-listicle h3.bf-item-title {
+    
+    margin-bottom: 0;
+}
+
+.ThreeColumns .Column2 li.bullshit-listicle p.bullshit-listicle-original-headline {
+    
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    
+}
