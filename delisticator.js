@@ -1,4 +1,4 @@
-i/*
+/*
  * BuzzFeed Delisticator for Chrome
  * Kills listicles dead!
  * Copyright 2013, Jason Lefkowitz <jason@jasonlefkowitz.net>.
