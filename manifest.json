@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "BuzzFeed Delisticator",
   "description": "De-listicate BuzzFeed.",
-  "version": "1.0",
+  "version": "1.1",
 
   "icons": {
     "16": "icon-16.png",
@@ -13,7 +13,7 @@
 
   "content_scripts": [
   {
-    "matches": ["http://www.buzzfeed.com/"],
+    "matches": ["https://www.buzzfeed.com/"],
     "js": ["jquery-2.0.3.js", "mutation_summary.js", "tree_mirror.js", "delisticator.js"],
     "css": ["delisticator.css"]
   }]

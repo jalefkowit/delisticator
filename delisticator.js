@@ -35,7 +35,7 @@ var bullshitListicleTaunts = [
     
 ]
 
-jQuery('div.PageContainer article, div.Column2 li.small-posts, .partner-area').each(function(index, element) {
+jQuery('div.col1 li.grid-posts__item, div.col1 li.partner-area, div.col2 li.lede--stacked').each(function(index, element) {
     
     hideIfBullshit(element);
     
@@ -82,9 +82,9 @@ function hideIfBullshitInSplash(splash) {
 
 function hideIfBullshit(article) {
   
-    var headline = jQuery(article).find(':header a');
+    var headline = jQuery(article).find('h2.lede__title a.lede__link');
     var headlineText = headline.html();
-    
+        
     if (re.test(headlineText)) {
         
         headline.html('Another bullshit listicle');
@@ -95,7 +95,7 @@ function hideIfBullshit(article) {
         
         jQuery(article).find(':header').after(originalHeadline);
         
-        jQuery(article).find('p.description').html(randomTaunt);
+        jQuery(article).find('p.lede__kicker').html(randomTaunt);
         
         jQuery(article).find('h3').after('<hr class="bullshit-listicle-clear">');
         
